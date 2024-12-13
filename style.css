@@ -1,0 +1,161 @@
+
+
+#wrapper{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5;
+    width: auto;
+}
+
+
+  h1,h2,p,h3,h4{
+    color: rgb(83, 125, 161);
+  }
+
+  .sottotitolo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .scrolledNavbar{
+    margin: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(1, 52, 235, 0.31);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+  }
+
+  .navbar{
+    transition: 1s;
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(1, 52, 235, 0.31);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    
+  }
+
+
+  .btnCustom{
+    background: rgba( 255, 255, 255, 0.5 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 40px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 10px;
+  }
+
+  .immagineHeader{
+    width: 100%;
+    
+  }
+
+
+  .cardCustom{
+width: 25%;
+    backdrop-filter: blur(px);
+
+background-color: rgba(255, 255, 255, 1);
+
+border-radius: 20px;
+
+box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -12px -12px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+padding: 1.25vh;
+margin:1.25ph;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+  }
+
+  .cardTitle{
+    font-size: large;
+  }
+
+  .cardCategory{
+    text-decoration: underline;
+  }
+
+  .cardPrice{
+    font-weight: bold
+  }
+
+  .annunciHeader{
+    margin-top: 82px;
+  }
+
+  
+
+  .immaginecarrello{
+    margin-right: 500px;
+  }
+
+#searchButton{
+  cursor: pointer;
+}
+
+.contenitore::-webkit-scrollbar {
+  width: 6px;
+  }
+  .contenitore::-webkit-scrollbar-track {
+  background-color: #ccc;
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  border-radius: 10px;
+  }
+  .contenitore::-webkit-scrollbar-thumb {
+  background-color: #3a98f6;
+  border-radius: 10px;
+  }
+
+  .card1{
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 40px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 10px;
+  }
+
+  .recensioni{
+
+    padding: 10vh;
+  }
+
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  .reviewCard{
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 40px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+    }
+
+    .stileAccordion{
+      border-radius: 40px;
+    
+    }
